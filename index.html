@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Info Page</title>
+    <link rel="stylesheet" href="/CSS/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="fas fa-bars"></div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="/Portfolio.html">Portfolio</a></li>
+        <li><a href="/CV.html">Resume</a></li>
+        <li><a href="/3DPrints.html">3D Prints</a></li>
+        <li><a href="/Twitch.html">Twitch</a></li>
+      </ul>
+    </nav>
+    <button onclick="bgChange()" class="secretBtn">I'm a secret button</button>
+    <!--About Start-->
+    <div class="backgroundContainer">
+      <h1 class="heading">About Me</h1>
+      <div id="aboutMe" class="imgTextContainer">
+        <div class="row">
+          <div class="image">
+            <img src="/Pictures/Happy Jack.jpg" alt="Picture of me" />
+          </div>
+          <div class="content">
+            <p class="infoText">
+              My name is Jack Niklasson, and I'm studying full-stack developer
+              at Campus Varberg.
+              <br />
+              I am 28 years old and I've always been interested in tech and
+              computers.
+              <br />
+              <br />
+              While studying, I also work at Kjell & Co. where I really get to
+              do what I love.<br />
+              Meeting people, talking, and handling Tech.
+              <br />
+              <br />
+              This page is a small collection of the things I love doing, as
+              well as some information about me. Hope you enjoy!
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--MODAL-->
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Nu har du oändligt med liv!</p>
+        </div>
+      </div>
+    </div>
+    <!--About End-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/JS/main.js"></script>
+  </body>
+</html>

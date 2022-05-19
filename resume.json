@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "workplace": "Kjell & Co.",
+        "position": "Butikssäljare",
+        "date": "Mars 2022 - Nuvarande"
+    },
+    {
+        "id": "2",
+        "workplace": "Elgiganten",
+        "position": "Collect@Store & Support",
+        "date": "November 2020 - Augusti 2021"
+    },
+    {
+        "id": "3",
+        "workplace": "Varbergs Stadshotell",
+        "position": "Nattportier",
+        "date": "September 2018 - November 2020"
+    }
+]
