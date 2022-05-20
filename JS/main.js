@@ -17,7 +17,6 @@ function bgChange(){
     document.querySelector('body').style.background = 'red';
 }
 
-
 //SECRET CODE
 var secretCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 
 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
